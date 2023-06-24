@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 
 def citys():
-    APPID = "dd434a2bab749c9a841f6cb6b41e3ab1"
+    APPID = "API_KEY"
     URL_BASE = "https://pro.openweathermap.org/data/2.5/"
 
     # запрос локаций городов Московской области (города взяла просто из списка первых в МО)
@@ -32,7 +32,7 @@ def citys():
 
 def load(geo):
     # загрузка данных с сайта погоды
-    APPID = "dd434a2bab749c9a841f6cb6b41e3ab1"
+    APPID = "API_KEY"
     URL_BASE = "https://api.openweathermap.org/data/2.5/forecast?"
     db_session.global_init("db/weather.db")
     # параметр - количество выгружаемых записей на один объект
